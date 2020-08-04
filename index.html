@@ -8,70 +8,539 @@
     <title>Document</title>
 </head>
 
-<body>
+<body style="background-image: url(./public/img/main_bg.jpg)">
 
     <!-- header -->
 
+    <!-- nav -->
     <header>
-        <nav class="navbar navbar-expand-lg navbar-light bg-dark d-flex justify-content-center ">
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse flex-grow-0 border-bottom border-top" id="navbarNav">
-                <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a class="nav-link  text-white" href="#">home</a>
+        <nav class="navbar navbar-expand-lg navbar-light bg-transparent">
+
+            <div class="collapse navbar-collapse  justify-content-around" id="navbarNav">
+                <ul class="navbar-nav border border-right-0 border-left-0 justify-content-around">
+                    <li class="nav-item active">
+                        <a class="nav-link uppercase text-white " href="#">Home </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link  text-white" href="#">about us</a>
+                        <a class="nav-link text-white" href="#">Features</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link  text-white" href="#">menu list</a>
+                        <a class="nav-link text-white" href="#">Pricing</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link  text-white" href="#">team</a>
+                        <a class="nav-link text-white" href="#">Home <span class="sr-only"></a>
                     </li>
                 </ul>
-            </div>
-            <div>
 
-                <a class="nav-link  text-white" href="#"><img src="./public/img/logo.png" alt=""></a>
+                <img src="./public/img/logo.png" alt="">
 
-            </div>
+                <ul class="navbar-nav border border-right-0 border-left-0">
 
-            <div class="collapse navbar-collapse flex-grow-0 border-bottom border-top   " id="navbarNav">
-                <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a class="nav-link  text-white" href="#">reservation</a>
+                    <li class="nav-item active">
+                        <a class="nav-link text-white" href="#">Home <span class="sr-only"></a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link text-white" href="#">Home <span class="sr-only"></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link  text-white" href="#">blog</a>
+                        <a class="nav-link text-white" href="#">Disabled</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link  text-white" href="#">testimonials</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link  text-white" href="#">contact us</a>
+                    <li class="nav-item active">
+                        <a class="nav-link text-white" href="#">Home <span class="sr-only"></a>
                     </li>
                 </ul>
             </div>
         </nav>
+        <!-- carousel -->
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="container text-white d-flex flex-column ">
+                        <div class=" d-flex justify-content-center">
+                            <h2 class="pt-5 mr-2">whatever your</h3>
+                                <h1 class="text-uppercase display-2">occasion</h1>
+                        </div>
+                        <div class="d-flex justify-content-center">
+                            <h1 class="red display-2"><span class="text-danger text-uppercase">taste</span> makes</h1>
+                            <h2 class="pt-5 pl-2">it one</h3>
+                        </div>
+                        <div class="d-flex justify-content-center">
+                            <h2 class="pt-5 mr-2"> to</h3>
+                                <h1 class="display-2">remember !</h1>
+                        </div>
+                        <div class="d-flex justify-content-center">
+                            <button type="button" class="btn btn-light btn-lg"><span class="uppercase ">purchase theme
+                                </span></button>
+                            <button type="button" class="btn btn-danger btn-lg ml-2">learn more</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="container text-white d-flex flex-column ">
+                        <div class=" d-flex justify-content-center">
+                            <h2 class="pt-5 mr-2">whatever your</h3>
+                                <h1 class="text-uppercase display-2">occasion</h1>
+                        </div>
+                        <div class="d-flex justify-content-center">
+                            <h1 class="red display-2"><span class="text-danger text-uppercase">taste</span> makes</h1>
+                            <h2 class="pt-5 pl-2">it one</h3>
+                        </div>
+                        <div class="d-flex justify-content-center">
+                            <h2 class="pt-5 mr-2"> to</h3>
+                                <h1 class="display-2">remember !</h1>
+                        </div>
+                        <div class="d-flex justify-content-center">
+                            <button type="button" class="btn btn-light btn-lg"><span class="uppercase ">purchase theme
+                                </span></button>
+                            <button type="button" class="btn btn-danger btn-lg ml-2">learn more</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="container text-white d-flex flex-column ">
+                        <div class=" d-flex justify-content-center">
+                            <h2 class="pt-5 mr-2">whatever your</h3>
+                                <h1 class="text-uppercase display-2">occasion</h1>
+                        </div>
+                        <div class="d-flex justify-content-center">
+                            <h1 class="red display-2"><span class="text-danger text-uppercase">taste</span> makes</h1>
+                            <h2 class="pt-5 pl-2">it one</h3>
+                        </div>
+                        <div class="d-flex justify-content-center">
+                            <h2 class="pt-5 mr-2"> to</h3>
+                                <h1 class="display-2">remember !</h1>
+                        </div>
+                        <div class="d-flex justify-content-center">
+                            <button type="button" class="btn btn-light btn-lg"><span class="uppercase ">purchase theme
+                                </span></button>
+                            <button type="button" class="btn btn-danger btn-lg ml-2">learn more</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
     </header>
 
-    <!-- fin head -->
-
-
-
-    <!-- carossel -->
+    <!-- fin header -->
 
 
 
 
+    <!-- section1 -->
+
+    <section class="menu">
+        <div class="d-flex justify-content-between align-items-center ">
+            <img src="./public/img/box-left-top.png" alt="">
+            <div class="d-flex flex-column">
+                <span class="d-flex justify-content-center pt-2">
+                    <h1 class="text-uppercase text-danger mr-2">our</h1>
+                    <h2 class="pt-2">Story</h2>
+                </span>
+                <img src="./public/img/decoration_line.png" alt="">
+            </div>
+            <img src="./public/img/box-right-top.png" alt="">
+        </div>
 
 
-    <!-- fin carossel -->
+        <div class="p1 text-center ">
 
+
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui similique harum distinctio labore ab officia
+                porro. Iure harum ea voluptas recusandae doloribus esse minus corrupti dolor? Quibusdam architecto
+                aliquid reprehenderit.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui similique harum distinctio labore ab
+                officia porro. Iure harum ea voluptas recusandae doloribus esse minus corrupti dolor? Quibusdam
+                architecto aliquid reprehenderit.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui similique harum distinctio labore ab
+                officia porro. Iure harum ea voluptas recusandae doloribus esse minus corrupti dolor? Quibusdam
+                architecto aliquid reprehenderit.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui similique harum distinctio labore ab
+                officia porro. Iure harum ea voluptas recusandae doloribus esse minus corrupti dolor? Quibusdam
+                architecto aliquid reprehenderit.
+            </p>
+        </div>
+
+        <div class="d-flex flex-column text-center">
+            <span class="d-flex justify-content-center pt-2">
+                <h1 class="text-uppercase text-danger mr-2">our</h1>
+                <h2 class="pt-2">Menu List</h2>
+            </span>
+            <div>
+                <img src="./public/img/decoration_line.png" alt="">
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-2">
+                <div class="text-center p-4 border-bottom">
+                    <i class="fas fa-coffee" style="font-size: 50px;"></i>
+                    <h1>BreakFast</h1>
+                </div>
+                <div class="text-center p-4 border-bottom">
+                    <i class="fas fa-coffee" style="font-size: 50px;"></i>
+                    <h1>Lunch</h1>
+                </div>
+                <div class="text-center p-4  border-bottom">
+                    <i class="fas fa-coffee" style="font-size: 50px;"></i>
+                    <h1>Snacks</h1>
+                </div>
+                <div class="text-center p-4  border-bottom">
+                    <i class="fas fa-coffee" style="font-size: 50px;"></i>
+                    <h1>Dinner</h1>
+                </div>
+            </div>
+            <div class="col col-5 border-left">
+                <div class="d-flex justify-content-around align-items-center border-bottom p-4">
+                    <img class="rounded-circle " src="./public/img/menu_image_1.jpg" alt="">
+                    <div>
+                        <h4> Lorem ipsum dolor</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum, excepturi.</p>
+                    </div>
+                    <p>25$</p>
+                </div>
+                <div class="d-flex justify-content-around align-items-center border-bottom p-4">
+                    <img class="rounded-circle " src="./public/img/menu_image_1.jpg" alt="">
+                    <div>
+                        <h4> Lorem ipsum dolor</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum, excepturi.</p>
+                    </div>
+                    <p>25$</p>
+                </div>
+                <div class="d-flex justify-content-around align-items-center border-bottom p-4">
+                    <img class="rounded-circle " src="./public/img/menu_image_1.jpg" alt="">
+                    <div>
+                        <h4> Lorem ipsum dolor</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum, excepturi.</p>
+                    </div>
+                    <p>25$</p>
+                </div>
+                <div class="d-flex justify-content-around align-items-center border-bottom p-4">
+                    <img class="rounded-circle " src="./public/img/menu_image_1.jpg" alt="">
+                    <div>
+                        <h4> Lorem ipsum dolor</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum, excepturi.</p>
+                    </div>
+                    <p>25$</p>
+                </div>
+                <div class="d-flex justify-content-around align-items-center border-bottom p-4">
+                    <img class="rounded-circle " src="./public/img/menu_image_1.jpg" alt="">
+                    <div>
+                        <h4> Lorem ipsum dolor</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum, excepturi.</p>
+                    </div>
+                    <p>25$</p>
+                </div>
+            </div>
+            <div class="col col_5 ">
+                <div class="d-flex justify-content-around align-items-center border-bottom p-4">
+                    <img class="rounded-circle " src="./public/img/menu_image_1.jpg" alt="">
+                    <div>
+                        <h4> Lorem ipsum dolor</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum, excepturi.</p>
+                    </div>
+                    <p>25$</p>
+                </div>
+                <div class="d-flex justify-content-around align-items-center border-bottom p-4">
+                    <img class="rounded-circle " src="./public/img/menu_image_1.jpg" alt="">
+                    <div>
+                        <h4> Lorem ipsum dolor</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum, excepturi.</p>
+                    </div>
+                    <p>25$</p>
+                </div>
+                <div class="d-flex justify-content-around align-items-center border-bottom p-4">
+                    <img class="rounded-circle " src="./public/img/menu_image_1.jpg" alt="">
+                    <div>
+                        <h4> Lorem ipsum dolor</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum, excepturi.</p>
+                    </div>
+                    <p>25$</p>
+                </div>
+                <div class="d-flex justify-content-around align-items-center border-bottom p-4">
+                    <img class="rounded-circle " src="./public/img/menu_image_1.jpg" alt="">
+                    <div>
+                        <h4> Lorem ipsum dolor</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum, excepturi.</p>
+                    </div>
+                    <p>25$</p>
+                </div>
+                <div class="d-flex justify-content-around align-items-center border-bottom p-4">
+                    <img class="rounded-circle " src="./public/img/menu_image_1.jpg" alt="">
+                    <div>
+                        <h4> Lorem ipsum dolor</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum, excepturi.</p>
+                    </div>
+                    <p>25$</p>
+                </div>
+            </div>
+        </div>
+
+
+
+
+        <div class="d-flex justify-content-between align-items-center ">
+            <img src="./public/img/box-bottom-left.png" alt="">
+
+            <img src="./public/img/box-bottom_right.png" alt="">
+        </div>
+
+    </section>
+
+
+
+
+
+    <!-- fin section1 -->
+
+
+
+
+    <!-- sectio2 -->
+
+    <section class="p-5" style="background-image: url(./public/img/team_background.jpg);">
+        <div class="text-center" style="color: white;">
+            <h1><span>MEET</span> Our Chef</h1>
+            <img src="./public/img/decoration_line.png" alt="">
+        </div>
+        <div class="d-flex  justify-content-center justify-content-around" style="color: white;">
+            <div class="text-center">
+                <img src="./public/img/chef1.png" alt="">
+                <p>Lorem, ipsum.</p>
+            </div>
+            <div class="text-center">
+                <img src="./public/img/chef2.png" alt="">
+                <p>Lorem, ipsum.</p>
+            </div>
+            <div class="text-center">
+                <img src="./public/img/chef3.png" alt="">
+                <p>Lorem, ipsum.</p>
+            </div>
+            <div class="text-center">
+                <img src="./public/img/chef4.png" alt="">
+                <p>Lorem, ipsum.</p>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- fin section2 -->
+
+    <!-- section3 -->
+
+    <section class="book">
+        <div class="d-flex justify-content-between align-items-center ">
+            <img src="./public/img/box-left-top-grey.png" alt="">
+            <div class="text-center">
+                <h1>book your Table</h1>
+                <img src="./public/img/decoration_line.png" alt="">
+            </div>
+            <img src="./public/img/box-right-top-grey.png" alt="">
+        </div>
+
+        <div class="form text-center p-5"
+            style="background-image: url(./public/img/book_table_bg.jpg); color: white; border-radius: 20px; ">
+            <p>for any query please call us at: +91-1234567890</p>
+            <div class="d-flex justify-content-center p-5">
+                <div class=" m-3">
+                    <input type="email" class="form-control m-2" id="exampleInputEmail1" aria-describedby="emailHelp"
+                        placeholder="Entrer Full Name">
+                    <input type="email" class="form-control m-2" id="exampleInputEmail1" aria-describedby="emailHelp"
+                        placeholder="Phone Number">
+                    <input type="email" class="form-control m-2" id="exampleInputEmail1" aria-describedby="emailHelp"
+                        placeholder="Date">
+                    <select class="form-control form-control-lg m-2">
+                        <option>Occasion</option>
+                    </select>
+                </div>
+                <div class="m-3">
+                    <input type="email" class="form-control m-2" id="exampleInputEmail1" aria-describedby="emailHelp"
+                        placeholder="Enter email">
+                    <select class="form-control form-control-lg m-2">
+                        <option>No Of Person</option>
+                    </select>
+                    <input type="email" class="form-control m-2" id="exampleInputEmail1" aria-describedby="emailHelp"
+                        placeholder="Enter email">
+                    <select class="form-control form-control-lg m-2">
+                        <option>Cuisine</option>
+                    </select>
+                </div>
+            </div>
+            <div>
+                <button class="btn">book now</button>
+            </div>
+        </div>
+        <div class="text-center">
+            <h1>our blog</h1>
+            <img src="./public/img/decoration_line.png" alt="">
+        </div>
+        <div class="d4 d-flex justify-content-center m-4 ">
+            <div class="m-3 text-center ">
+                <img src="./public/img/blog_img1.jpg" alt="">
+                <button>12 1pril/ 20 Comment/ 35 Likes</button>
+            </div>
+            <div class="m-3 text-center">
+                <img src="./public/img/blog_img2.jpg" alt="">
+                <button>12 1pril/ 20 Comment/ 35 Likes</button>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- fin section3 -->
+
+
+
+
+
+    <!-- section4 -->
+
+    <section class="client">
+        <div class="text-center">
+            <h1><span>client</span>Testimonials</h1>
+        </div>
+        <div class="row">
+            <div class="col cole-2 ">
+                <img class="rounded-circle" src="./public/img/testimonial1.jpg" alt="">
+            </div>
+            <div class="col cole-4">
+                <h3>Lorem, ipsum.</h3>
+                <h5>Manager</h5>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis, sit ipsa! Maiores voluptatibus
+                    molestias magni? Nam et quaerat quia facilis sapiente ducimus dolorem animi impedit, debitis ut
+                    asperiores, in vel.</p>
+            </div>
+            <div class="col cole-4">
+                <h3>Lorem, ipsum.</h3>
+                <h5>Manager</h5>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis, sit ipsa! Maiores voluptatibus
+                    molestias magni? Nam et quaerat quia facilis sapiente ducimus dolorem animi impedit, debitis ut
+                    asperiores, in vel.</p>
+            </div>
+            <div class="col col-2">
+                <img class="rounded-circle" src="./public/img/testimonial1.jpg" alt="">
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+
+
+    <!-- fin section4 -->
+
+    <!-- section 5 -->
+    <section class="contact p-5 text-center">
+
+        <div class="p-3">
+            <h1><span class="text-$red">OUR</span>Contact</h1>
+            <img src="./public/img/decoration_line.png" alt="">
+        </div>
+        <div class="text-White">
+            <div class="border-bottom">
+                <i class="fas fa-map-marker-alt"></i>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat?</p>
+            </div>
+
+            <div class="border-bottom">
+                <i class="fas fa-phone-alt"></i>
+                <p>+91-5745765</p>
+            </div>
+            <div class="border-bottom">
+                <i class="fas fa-envelope"></i>
+                <p>abc@abc.com</p>
+            </div>
+        </div>
+
+
+    </section>
+
+
+
+
+    <!-- fin section 5 -->
+
+
+    <!-- footer -->
+
+
+    <footer>
+        <div class="row d-flex flex-wrap justify-content-around p-5">
+            <div class=" col-4 col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4">
+                <h1>about us</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur excepturi vel est possimus modi
+                    cumque. Tempora assumenda officia at iure eum excepturi eligendi consequatur vel soluta facilis,
+                    dicta ut veritatis?</p>
+                <div class="d-flex justify-content-around align-items-center">
+                    <i class="fab fa-facebook"></i>
+                    <i class="fab fa-google-plus-g"></i>
+                    <i class="fab fa-pinterest"></i>
+                    <i><i class="fab fa-linkedin-in"></i></i>
+                </div>
+            </div>
+            <div class="col-4 col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4">
+                <h1>instagram</h1>
+                <div class="d-flex">
+                    <img class="p-2" src="./public/img/instragram_gallery_img1.jpg" alt="">
+                    <img class="p-2" src="./public/img/instragram_gallery_img2.jpg" alt="">
+                    <img class="p-2" src="./public/img/instragram_gallery_img1.jpg" alt="">
+                    <img class="p-2" src="./public/img/instragram_gallery_img2.jpg" alt="">
+                </div>
+                <div class="d-flex">
+                    <img class="p-2" src="./public/img/instragram_gallery_img2.jpg" alt="">
+                    <img class="p-2" src="./public/img/instragram_gallery_img1.jpg" alt="">
+                    <img class="p-2" src="./public/img/instragram_gallery_img2.jpg" alt="">
+                    <img class="p-2" src="./public/img/instragram_gallery_img1.jpg" alt="">
+                </div>
+            </div>
+            <div class="col-4 col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4">
+                <h1>popular tags</h1>
+                <div class="m-2">
+                    <button>Restaurant</button>
+                    <button>Responsive Design</button>
+                    <button> Hotel</button>
+                </div>
+                <div class="m-2">
+                    <button>Blog Sectio</button>
+                    <button>SEO</button>
+                    <button>Cuisine</button>
+
+                </div>
+                <div>
+                    <button>Graphic</button>
+                    <button>Food</button>
+
+
+                </div>
+            </div>
+        </div>
+        <div class="last" >
+
+        </div>
+    </footer>
+    <!-- fin footer -->
+
+
+
+
+    <script src="./node_modules/jquery/dist/jquery.js"></script>
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.js"></script>
+    
 </body>
 
 </html>
